@@ -1,0 +1,65 @@
+[[package]]
+name = "mutf8"
+version = "1.0.2"
+description = "Fast MUTF-8 encoder & decoder"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+test = ["pytest", "pytest-benchmark"]
+
+[[package]]
+name = "pynbt"
+version = "3.1.0"
+description = "Tiny, liberally-licensed NBT library (Minecraft)."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+mutf8 = ">=1.0.2"
+
+[package.extras]
+test = ["pytest"]
+
+[[package]]
+name = "pypng"
+version = "0.0.20"
+description = "Pure Python PNG image encoder/decoder"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "8c09e9fd4601e905f4788003f786a9dfa83300d8161ae36b8269dbd273af2204"
+
+[metadata.files]
+mutf8 = [
+    {file = "mutf8-1.0.2-cp35-cp35m-macosx_10_14_x86_64.whl", hash = "sha256:6f6a3bf5a08791acbddda598911d8085edbb3991dd1caff0fc57089ead35366c"},
+    {file = "mutf8-1.0.2-cp35-cp35m-manylinux1_x86_64.whl", hash = "sha256:abb51a5a50bae9b0aa0e3d4e774da9eb03b3a3b37155e66c42962df94f2e6ce4"},
+    {file = "mutf8-1.0.2-cp35-cp35m-manylinux2014_x86_64.whl", hash = "sha256:0d73e5250bc36167f41e318e339d4fd4c230f335a97112f5097061520ab8ec8f"},
+    {file = "mutf8-1.0.2-cp35-cp35m-win_amd64.whl", hash = "sha256:f6ea437a2f7333ecc6a4cf9c92f77d292d11abd20a4bbf450630be400d2e88b5"},
+    {file = "mutf8-1.0.2-cp36-cp36m-macosx_10_14_x86_64.whl", hash = "sha256:f1fcfda3b6aa9df0fa86a85a022047f6130d82fe26bb9dba1024a4f8b6e71d3f"},
+    {file = "mutf8-1.0.2-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:c78607323ac9a4b92ee74b24b635677b5a251f87427cbc436fb32a9a14180d0c"},
+    {file = "mutf8-1.0.2-cp36-cp36m-manylinux2014_x86_64.whl", hash = "sha256:047320d9871c99a1d93f0943a37b6d9dcb9c6c594040891f9c727c08336a399a"},
+    {file = "mutf8-1.0.2-cp36-cp36m-win_amd64.whl", hash = "sha256:ead61d27b6312cd176b7d69bda3c244d242fb2d387c5525803fe997e1a17edbb"},
+    {file = "mutf8-1.0.2-cp37-cp37m-macosx_10_14_x86_64.whl", hash = "sha256:da491452ef83a871e00b3915d42c31e8d09ea5f9c84dd0b624363e63278e1aff"},
+    {file = "mutf8-1.0.2-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:bf2340f07f0a8799c170622920ce93a2275c45b4a243561ce5a312c471684ba0"},
+    {file = "mutf8-1.0.2-cp37-cp37m-manylinux2014_x86_64.whl", hash = "sha256:0620e123b0ae85ad3d981c6c426a8798787c44a71bf3abe0c4fcff94ed3f9f1e"},
+    {file = "mutf8-1.0.2-cp37-cp37m-win_amd64.whl", hash = "sha256:9ce7bae6ba458a72aa5327025e8c75883316f22ddc6f9296bc4941c3f83c57f6"},
+    {file = "mutf8-1.0.2-cp38-cp38-macosx_10_14_x86_64.whl", hash = "sha256:5277b7c0c7fb66fca5ad265534d5b4f4f7d3e27379240c1b0dde24b3537dc561"},
+    {file = "mutf8-1.0.2-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:716d9960808180c8d15b74bcb49d9808e2829372c7ef4fb0131391294bece1e6"},
+    {file = "mutf8-1.0.2-cp38-cp38-manylinux2014_x86_64.whl", hash = "sha256:a084cb19409f74b6580dfaf09f2d92b6284dedb4490bd458e67f3cb48d7cf180"},
+    {file = "mutf8-1.0.2-cp38-cp38-win_amd64.whl", hash = "sha256:bb052289032e76ede6a9e0a169fdd23f297dbfc385dc068757d1853456975ff8"},
+    {file = "mutf8-1.0.2.tar.gz", hash = "sha256:1586e35b77329ac3d4736d5ead394c82c36ec125a2d18bfd1b4f95ea4fb5e8fe"},
+]
+pynbt = [
+    {file = "PyNBT-3.1.0-py3-none-any.whl", hash = "sha256:5cd26b6b59c6c31534db077f10700178159786fc1da5a74b79731438e33a8de2"},
+    {file = "PyNBT-3.1.0.tar.gz", hash = "sha256:d0e47a493df7c64390425d635bf78cd9028d692caa6e73a00b4ae579a126f45d"},
+]
+pypng = [
+    {file = "pypng-0.0.20.tar.gz", hash = "sha256:1032833440c91bafee38a42c38c02d00431b24c42927feb3e63b104d8550170b"},
+]
