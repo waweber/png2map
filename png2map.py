@@ -1,4 +1,10 @@
 #!/usr/bin/env python
+# png2map - convert a png image to a minecraft map data file
+# Requires pypng and PyNBT (pip install pypng pynbt)
+# usage: png2map.py < input.png > map_X.dat
+#
+# Standard input should be an exactly 128x128 PNG image.
+# The data file is written to stdout.
 
 from pynbt import *
 import png
